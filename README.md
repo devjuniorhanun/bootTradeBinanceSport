@@ -1,33 +1,44 @@
-# binance-spot
+# Imersão BotDev 2023
+Sistema de Boot Trade da corretora Binance Modalidade Sport
 
-Projeto de bot para Binance Spot (aula 1)
+![GitHub](https://img.shields.io/github/license/devjuniorhanun/bootTradeBinanceSport)
+![Twitter Follow](https://img.shields.io/twitter/follow/HanunWinston?style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/devjuniorhanun/bootTradeBinanceSport)
+![GitHub All Releases](https://img.shields.io/github/downloads/devjuniorhanun/bootTradeBinanceSport/total)
+![GitHub language count](https://img.shields.io/github/languages/count/devjuniorhanun/bootTradeBinanceSport)
+![GitHub top language](https://img.shields.io/github/languages/top/devjuniorhanun/bootTradeBinanceSport)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/devjuniorhanun/bootTradeBinanceSport)
 
-## Como executar?
+### Instalação
+Primeiramente clonar o projeto.
+```
+git clone https://github.com/devjuniorhanun/ApiSisdeveSgaLarave.git nomeProjeto
+```
+Entra no projeto resce criado.
+```
+cd nomeProjeto
+```
+Gerar o arquivo .env
+```
+cp .env.example .env
+```
+Configurar o arquivo .env
+```
+nano .env
+```
+Instalação das dependencias do node
+```
+yarn install ou npm install
+```
+Rotando o servidor
+```
+node index
+```
 
-1. Crie um arquivo .env, copie o conteúdo do .env.example nele e preencha 
-as variáveis;
-2. Revise o index.js e implemente a sua lógica de compra e venda de um par 
-de moedas;
-3. Navegue via terminal até a pasta do projeto;
-4. Instale as dependências com npm install;
-5. Execute o projeto com node index.js;
+## 📝 Licença
 
-## Recursos Extras
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-As URLs de teste e produção estão no .env.example
-
-Aprenda a configurar o ambiente de desenvolvimento: 
-https://www.youtube.com/watch?v=iJ-BUhcZOSY
-
-Aprenda a criar as chaves da Binance: 
-https://www.youtube.com/watch?v=-6bF6a6ecIs
-
-Erros comuns com o bot (e soluções): 
-https://www.luiztools.com.br/post/erros-comuns-com-as-apis-da-binance/
-
-Inscreva-se para receber as lições e ter suporte: 
-https://www.luiztools.com.br/bot-dev
-
-Me siga nas redes sociais: https://about.me/luiztools
-
-Receba as novidades no Telegram: https://t.me/luiznews
+<p align="center">
+  Feito com 💜 by Sisdeve
+</p>
